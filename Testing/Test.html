@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My website</title>
+  <style>
+    #customers {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    
+    #customers td, #customers th {
+      
+      padding: 8px;
+    }
+    
+    #customers tr:nth-child(even){background-color: #f2f2f2;}
+    
+    #customers tr:hover {background-color: #ddd;}
+    
+    #customers th {
+      padding-top: 12px;
+      padding-bottom: 12px;
+      text-align: left;
+      background-color: blue;
+      color: white;
+    }
+   .btn{
+    background-color: black;
+    color:#f2f2f2
+   }
+    </style>
+</head>
+<body>
+  <h1>Product list Table</h1>
+
+<table id="customers">
+  <tr>
+    <th>Image</th>
+    <th>Name</th>
+    <th>Description</th>
+    <th>Quantity</th>
+    <th>Registration-Date</th>
+    <th>Actions</th>
+  </tr>
+  <tr>
+    <td><img src="Footballs Boots (2).jpg" width="80px" height="80px" ></td>
+    <td>Boots</td>
+    <td>Boots</td>
+    <td>15</td>
+    <td>10 Aug,2022</td>
+    <td><a href="Boot.html"><input class="btn"type="button" value=view></a></td>
+  </tr>
+  <tr>
+    <td><img src="Sandal.webp" width="80px" height="80px"></td>
+    <td>Sandals</td>
+    <td>Sandals</td>
+    <td>10</td>
+    <td>10 Aug,2022</td>
+    <td><a href="Sandal.html"><input class="btn"type="button" value=view></a></td>
+  </tr>
+  <tr>
+    <td><img src="Footballs Boots (1).jpg" width="80px" height="80px" ></td>
+    <td>Football Boots</td>
+    <td> Football Boots</td>
+    <td>47</td>
+    <td>10 Aug,2022</td>
+    <td><a href="Detatils.html"><input class="btn"type="button" value=view></a></td>
+  </tr>
+  <tr>
+    <td><img src="Footballs Boots (2).jpg" width="80px" height="80px"></td>
+    <td>Boots</td>
+    <td>Boots</td>
+    <td>80</td>
+    <td>10 Aug,2022</td>
+    <td><a href="Boot.html"><input class="btn"type="button" value=view></a></td>
+  </tr>
+ 
+</table>
+  
+</body>
+</html>
